@@ -37,7 +37,7 @@ The portfolio is built using the following technologies:
 
 - HTML5 and CSS3 for the overall structure and design.
 
-- JavaScript for interactivity and dynamic elements.
+- git JavaScript for interactivity and dynamic elements.
 
 
 ## Feedback and Contact
