@@ -1,5 +1,5 @@
 import { BiHomeAlt, BiUser } from "react-icons/bi";
-import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
+import { BsClipboardData, BsBriefcase, BsChatSquareText } from "react-icons/bs";
 
 const Nav = () => {
   return (
@@ -8,7 +8,7 @@ const Nav = () => {
         <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
           <a
             href="#home"
-            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center offset{-200px}"
           >
             <BiHomeAlt />
           </a>
@@ -34,7 +34,7 @@ const Nav = () => {
             href="#contact"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
-            <BsChatSquare />
+            <BsChatSquareText />
           </a>
         </div>
       </div>
